@@ -15,3 +15,14 @@ expect(fizz_15).to eq("FizzBuzz")
 'returns nil when the number is not divisible by 3 or 5' do
 expect(fizz_4).to eq(nil)
 =end
+
+def fizzbuzz(input)
+  if input % 3 == 0 && input % 5 == 0
+  elsif input % 3 == 0
+    puts "Fizz"
+  elsif input % 5 == 0
+    puts "Buzz"
+
+  end
+
+end
